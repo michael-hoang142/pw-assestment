@@ -1,0 +1,19 @@
+{
+  "name": "hoangkhanhquan-gm-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ui": "npx playwright test -g 'ui/*' --headed --project=chromium --workers=4",
+    "test-api": "npx playwright test -g 'api/*' --project=chromium --workers=4",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.7.1",
+    "typescript": "^5.0.4"
+  }
+}
