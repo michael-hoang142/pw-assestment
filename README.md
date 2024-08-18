@@ -7,13 +7,13 @@
         <h5>
           <ol>
             <li>
-              <a href="#getting-started">Getting Started</a>
+              <a href="#about the Project">Getting Started</a>
               <ul>
                 <li><a href="#prerequisites">Prerequisites</a>
                 <li><a href="#installation">Installation</a>
               </ul>
             </li>
-            <li><a href="#usage">Usage</a></li>
+            <li><a href="#folder structure & usage">Usage</a></li>
           </ol>
         </h5>    
     </details>
@@ -51,9 +51,9 @@ The following software are required:
 ### Installation
 
 1. Clone the repo using below URL
-
+  - https://github.com/michael-hoang142/pw-assestment
 ```sh
-  
+  git clone https://github.com/michael-hoang142/pw-assestment.git
 ```
 
 2. Navigate to folder, and install npm packages using:
